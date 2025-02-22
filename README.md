@@ -4,7 +4,7 @@ This script scrapes the first 100 GPU specifications from TechPowerUp and visual
 
 ## Dependencies
 - `requests`: Fetches web pages from the internet.
-- `BeautifulSoup`: Parses HTML content and extracts useful information.
+- `BeautifulSoup`: Parses HTML content and extracts information.
 - `pandas`: Handles and organizes data in tables.
 - `matplotlib.pyplot`: Creates graphs and visualizations.
 - `mplcursors`: Adds interactive hover functionality to graphs.
