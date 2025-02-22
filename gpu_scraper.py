@@ -83,6 +83,9 @@ df = df.dropna(subset=['GPU clock', 'Memory clock'])
 # Sort the DataFrame by GPU clock for better visualization
 df = df.sort_values(by='GPU clock', ascending=False)
 
+# Reset the index after sorting
+df = df.reset_index(drop=True)
+
 # Plot the data
 plt.figure(figsize=(14, 10))  # Adjust figure size for vertical bars
 
